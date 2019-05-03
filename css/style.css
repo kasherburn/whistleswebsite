@@ -1,0 +1,203 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    
+}
+h1{
+    font-family: "Helvetica Neue", 'Helvetica', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    font: 40px "Helvetica", Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 1vw;
+}
+
+
+
+
+.box_5 {
+    background-color: lightgray;
+}
+.container1 {
+    display: flex;
+    flex: auto;
+    width: 1000px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: black;
+    
+}
+.box1 {
+    padding: 1px;
+}
+.box2 {
+    padding: 1px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    
+    
+}
+
+
+.bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: black;
+
+}
+
+.image2 {
+    display: relative;
+    float: left;
+    margin-left: 213px;
+    margin-right: auto;
+    width: 35%;
+    height: 90%;
+    
+
+}
+
+.image3  {
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: 214px;
+    width: 35%;
+    height: 90%;
+
+}
+
+.image4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    border: 10px solid transparent;
+}
+
+.container2 {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-left: 105px;
+}
+
+.image5 {
+    display: block;
+    float: left;
+    margin-left: 213px;
+    margin-right: auto;
+    width: 35%;
+    height: 90%;
+}
+
+.image6 {
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: 214px;
+    width: 35%;
+    height: 90%;
+    
+    
+}
+
+
+.image7 {
+    display: block;
+    float: left;
+    margin-left: 213px;
+    margin-right: auto;
+    width: 35%;
+    height: 90%;
+    
+}
+.image8 {
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: 214px;
+    width: 35%;
+    height: 90%;
+}
+
+.container3 {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 213px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+mark {
+    background-color: lightgray;
+}
+
+.container4 {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-left: 213px;
+    text-decoration: underline;
+    
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box:hover, .imagehover:hover, .boxhover:hover{
+ background-color: lightgray;
+ cursor: pointer;
+}
+
+
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+
+
